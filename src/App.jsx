@@ -10,9 +10,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blogs" element={<BlogPage />} />
-
-
-          {/* <Route path="/path_name/:dynamic" element={<Component_Name />} /> */}
         </Routes>
       </Router>
     </>
